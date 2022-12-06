@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const apiURL = process.env.REACT_APP_API_URL;
-const apiURL = "http://localhost:5001";
+const apiURL = "https://serverv22.herokuapp.com";
 
 const API = axios.create({ baseURL: apiURL });
 
